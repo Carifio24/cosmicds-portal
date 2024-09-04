@@ -46,22 +46,7 @@ To run the portal locally, there are a series of steps needed to setup the local
 
    $ pip install .
 
-2. Generate a local test database by running the `models.py` file
-
-.. code-block::
-
-   $ cd src
-   $ python models.py
-
-   You should see a new `database.db` file in the package directory.
-
-3. Start the database access api server:
-
-.. code-block::
-
-   $ uvicorn cosmicds_portal.server:app --reload
-
-4. Start the Solara portal app (ask @nmearl for the required access tokens if needed)
+2. Start the Solara portal app (ask @nmearl for the required access tokens if needed)
 
 .. code-block::
 
